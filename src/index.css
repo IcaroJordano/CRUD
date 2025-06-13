@@ -1,0 +1,25 @@
+.slow-transition {
+  transition: all 0.5s ease-in-out;
+}
+.min-h-300 {
+  min-height: 50px;
+}
+
+* {
+  /* overflow: hidden; */
+  padding: 0%;
+  margin: 0%;
+}
+
+/* CSS */
+.custom-relative-lg {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .custom-relative-lg {
+    position: relative;
+  }
+}
