@@ -1,6 +1,6 @@
 // import axios from "axios";
 import axios from "axios";
-import { cache, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Button, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
@@ -26,9 +26,7 @@ const ProdutosPage = () => {
 
   const deleteProduto = async (id: number) => {
     try {
-      const response = await axios.delete(
-        `https://api.escuelajs.co/api/v1/products/${id}`
-      );
+      await axios.delete(`https://api.escuelajs.co/api/v1/products/${id}`);
       Swal.fire({
         icon: "success",
         // title: "Produto Cadastrado Com Sucesso!",
