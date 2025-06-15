@@ -1,4 +1,4 @@
-import { Col, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import Menu from "./components/Menu";
 import { Rotas } from "./pages/Rotas";
 import Navbar from "./components/Navbar";

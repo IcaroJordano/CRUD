@@ -1,6 +1,3 @@
-import { useState } from "react";
-import SidebarItem from "./SidebarItem";
-import SidebarDropdown from "./SidebarDropdown";
 import logo from "../../public/logo.png";
 import logoSimples from "../../public/logo-simples.png";
 import Sidebar from "./Sidebar";

@@ -1,6 +1,5 @@
 import Sidebar from "./Sidebar";
 import logo from "../../public/logo.png";
-import logoSimples from "../../public/logo-simples.png";
 
 interface Props {
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
