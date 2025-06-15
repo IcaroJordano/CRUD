@@ -8,7 +8,7 @@ const Navbar = ({ isOpen, setIsOpen }: Props) => {
   return (
     <>
       <div
-        className="d-flex  custom-relative-lg  text-body-secondary  z-3 justify-content-lg:between  gap-3   align-items-center p-3  shadow-sm   m-0 bg-light d-lg-flex fw-semibold "
+        className="d-flex  custom-relative-lg  text-body-secondary  z-3 justify-content-lg:between  gap-3  align-items-center p-3  shadow-sm   m-0 bg-white d-lg-flex fw-semibold "
         style={{ height: "50px" }}
       >
         <i

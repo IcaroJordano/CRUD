@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import { useState } from "react";
 
 function App() {
-  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <>
       <div className="d-flex" style={{ height: "100vh" }}>

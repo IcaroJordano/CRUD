@@ -36,7 +36,7 @@ const Menu = ({ isOpen, setIsOpen }: Props) => {
             alt=""
           />
           <i
-            style={{ top: "36px" }}
+            style={{ top: "36px", zIndex: "5" }}
             className={`p-1 bg-white text-black rounded-2 px-2 text-center bi ${
               isOpen ? "bi-arrow-left" : "bi-arrow-right"
             } position-absolute  start-100 translate-middle-x  `}
